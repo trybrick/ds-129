@@ -939,7 +939,7 @@ section#contact .text-danger {
 }
 footer {
 	text-align: center;
-	background-color: #eee;
+	background-color: #000;
 	border-top-color: #ddd;
 	border-top-style: solid;
 	border-top-width: thin;
@@ -971,7 +971,7 @@ ul.social-buttons li a {
 	line-height: 40px;
 	outline: 0;
 	color: #fff;
-	background-color: #c4c4c4;
+	background-color: #333333;
 	-webkit-transition: all .3s;
 	-moz-transition: all .3s;
 	transition: all .3s;
