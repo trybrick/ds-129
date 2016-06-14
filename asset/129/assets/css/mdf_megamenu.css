@@ -152,8 +152,8 @@ a.navbar-brand img{
 }
 #mdf_menu div.mdf_sub_wrap a:hover,
 #mdf_menu ul.mdf_child_menu a:hover{
-	color: #C2B69C;
-	background: #8b1e1a;
+	color: #FFF;
+	background: #BA0C2F;
 }
 .mdf_flip{
 	height: auto;
