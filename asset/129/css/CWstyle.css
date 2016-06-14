@@ -160,7 +160,7 @@ a:hover {
 	margin: 0 0 0 35px;
 }
 .close {
-	background: #8b1e1a;
+	background: #BA0C2F;
 	z-index: -1;
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
@@ -200,8 +200,8 @@ a:hover {
 	background: none;
 }
 .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
-	background-color: #8b1e1a;
-	border-color: #8b1e1a;
+	background-color: #BA0C2F;
+	border-color: #BA0C2F;
 }
 .pagination > li > a, .pagination > li > span {
 	color: #ccc;
@@ -216,7 +216,7 @@ a:hover {
 }
 .pagination > li > a:hover, .pagination > li > span:hover {
 	background-color: #e6e6e6;
-	color: #8b1e1a;
+	color: #BA0C2F;
 }
 svg#myFlyer {
 	box-shadow: 0px 0px 6px rgba(0,0,0,.4);
@@ -233,12 +233,12 @@ svg#myFlyer {
 	color: #555;
 }
 .nav-tabs li a:hover {
-	background-color: #8b1e1a;
+	background-color: #BA0C2F;
 	color: #fff;
-	border-color: #8b1e1a;
+	border-color: #BA0C2F;
 }
 .nav-tabs li.active {
-	color: #8b1e1a;
+	color: #BA0C2F;
 }
 img.dcircular-image {
 	width: 200px;
@@ -257,7 +257,7 @@ img.dcircular-image {
 }
 .btn-default {
 	color: #fff;
-	background-color: #8b1e1a;
+	background-color: #BA0C2F;
 	transition: all .2s ease;
 	border: 0;
 	margin: 15px 0px;
@@ -357,10 +357,10 @@ div.errorpage {
 	font-family: "Open Sans", Arial, Helvetica, sans-serif !important;
 }
 .gs-webResult.gs-result a.gs-title:link, .gs-webResult.gs-result a.gs-title:link b, .gs-imageResult a.gs-title:link, .gs-imageResult a.gs-title:link b {
-	color: #8B1E1A !important;
+	color: #BA0C2F !important;
 }
 .gs-result .gs-title, .gs-result .gs-title * {
-	color: #8B1E1A !important;
+	color: #BA0C2F !important;
 	text-decoration: none !important;
 	text-align: left !important;
 }
@@ -450,7 +450,7 @@ a, a:hover, a:focus, a:active, a.active {
 	outline: 0;
 }
 a {
-	color: #8b1e1a;
+	color: #BA0C2F;
 	text-decoration: none;
 	font-weight: bold;
 }
@@ -506,7 +506,7 @@ h5 {
 	border: 0px solid #c2b69c;
 	border-radius: 10px;
 	color: #ffffff;
-	box-shadow: -4px 4px 7px #8b1e1a;
+	box-shadow: -4px 4px 7px #BA0C2F;
 	border: 1px solid #eee;
 }
 .btn-xl:hover, .btn-xl:focus, .btn-xl:active, .btn-xl.active, .open .dropdown-toggle.btn-xl {
@@ -549,7 +549,7 @@ h5 {
 	color: #333333;
 }
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:active, .navbar-default .navbar-brand.active {
-	color: #8b1e1a;
+	color: #BA0C2F;
 }
 .navbar-default .navbar-collapse {
 	border-color: rgba(255,255,255,.02);
@@ -573,7 +573,7 @@ h5 {
 }
 .navbar-default .nav li a:hover, .navbar-default .nav li a:focus {
 	outline: 0;
-	color: #8b1e1a;
+	color: #BA0C2F;
 }
 .navbar-default .navbar-nav>.active>a {
 	border-radius: 0;
@@ -977,7 +977,7 @@ ul.social-buttons li a {
 	transition: all .3s;
 }
 ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li a:active {
-	background-color: #8b1e1a;
+	background-color: #BA0C2F;
 }
 .btn:focus, .btn:active, .btn.active, .btn:active:focus {
 	outline: 0;
@@ -1099,7 +1099,7 @@ body {
 	color: #999;
 }
 #socialBar a:hover {
-	color: #8b1e1a;
+	color: #BA0C2F;
 	font-weight: bold;
 }
 #inside-socialBar {
@@ -1123,7 +1123,7 @@ body {
 	color: #999;
 }
 #inside-socialBar a:hover {
-	color: #8b1e1a;
+	color: #BA0C2F;
 }
 /**********************Megamenu************************/
 
@@ -1246,7 +1246,7 @@ span.ProductName {
 }
 a.button {
 	color: #fff;
-	background-color: #8b1e1a;
+	background-color: #BA0C2F;
 	display: block;
 	font-weight: normal;
 	padding: 5px 10px;
@@ -1310,7 +1310,7 @@ div.circularline {
 	color: #aaa;
 }
 .btn-group .btn.btn-default.btn-sm:hover {
-	color: #8b1e1a;
+	color: #BA0C2F;
 }
 .btn-sm, .btn-group-sm > .btn {
 	font-size: 10px;
@@ -1543,7 +1543,7 @@ img.storedirector {
 
 a.buttonForce {
     color: #fff;
-    background-color: #8b1e1a;
+    background-color: #BA0C2F;
     display: block;
     font-weight: normal;
     padding: 5px 10px;
@@ -1588,7 +1588,7 @@ a.noFocus:focus {
 }
 .PayPalbtn-info:hover, .PayPalbtn-info:focus, .PayPalbtn-info.focus, .PayPalbtn-info:active, .PayPalbtn-info.active, .open>.dropdown-toggle.btn-info {
 	color: #fff;
-	background-color: #8b1e1a;
+	background-color: #BA0C2F;
 	border-color: #630502;
 }
 p#start {
@@ -1724,7 +1724,7 @@ tr.lfl_areatitle {
 }
 th.lfl_State {
 	color: #ececec !important;
-	background-color: #8b1e1a;
+	background-color: #BA0C2F;
 }
 
 /* Gluten Free Page */
