@@ -554,7 +554,7 @@ h5 {
 }
 @media (min-width: 439px) and (max-width: 1207px) {
 .navbar-default .navbar-collapse {
-	margin-top: 20px;
+	margin-top: 40px;
 }
 }
 .navbar-default .navbar-toggle {
