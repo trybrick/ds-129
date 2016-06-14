@@ -452,7 +452,8 @@ input{
 		
 		a.navbar-brand img {
 		height: 36px !important;
-		width: 200px !important;
+		/*width: 200px !important;*/
+		height: 100% !important;
 		margin-top: 9px !important;
 	}
 	}
