@@ -959,6 +959,9 @@ footer span.copyright a:hover {
 	color: #555;
 	text-decoration: none;
 }
+.footerlink a:hover {
+	color: #ffffff;
+}
 ul.social-buttons {
 	margin-bottom: 0;
 }
