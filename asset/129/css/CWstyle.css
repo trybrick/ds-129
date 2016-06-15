@@ -469,7 +469,7 @@ h5 {
 	margin: 0 auto;
 }
 .bg-light-gray {
-	background-color: rgba(255,255,255,.9);
+	background-color: rgba(255,255,255,1);
 }
 .bg-darkest-gray {
 	background-color: #222;
@@ -727,7 +727,7 @@ header .intro-text .intro-heading {
 section {
 	padding: 10px 0;
 	background-color: #ffffff;
-	color: #666;
+	color: #333;
 }
 section h2.section-heading {
 	margin-top: 0;
