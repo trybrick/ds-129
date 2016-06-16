@@ -1417,7 +1417,7 @@ div.intro-text {
 	margin-top: 52%
 }
 .col-lg-12.text-center .clear_storelocation {
-	margin-top: 32%
+	margin-top: 34%
 }
 .col-lg-12.text-center .clear_small {
 	margin-top: 20%
@@ -1435,8 +1435,8 @@ h1.Cob-section-heading {
 }
 h1.Cob-section-heading2 {
 	position: relative;
-	top: 200px;
-	font-size: 7em;
+	top: 300px;
+	font-size: 5em;
 	color: #ffffff;
 	text-shadow: 4px 4px 5px rgb(0, 0, 0);
 	-moz-text-shadow: 4px 4px 5px rgb(0, 0, 0);
