@@ -946,6 +946,10 @@ footer {
 	border-top-color: #ddd;
 	border-top-style: solid;
 	border-top-width: thin;
+	color: #999;
+}
+footer a:hover {
+	color: #fff;
 }
 footer span.copyright {
 	text-transform: uppercase;
