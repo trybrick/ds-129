@@ -2630,7 +2630,7 @@ textarea.input-lg, textarea.form-group-lg .form-control, select[multiple].input-
 	line-height: 1.5;
 	border-radius: 3px;
 	color:#fff;
-	background-color: #8b1e1a;
+	background-color: #ba0c2f;
 	transition: all .5s ease;
 }
 
@@ -2759,7 +2759,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6bbaca9', e
 	white-space: nowrap
 }
 .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
-	color: #8b1e1a;
+	color: #ba0c2f;
 	text-decoration: none;
 	background-color: #ffffff;
 }
@@ -3445,7 +3445,7 @@ textarea.input-group-sm>.form-control, textarea.input-group-sm>.input-group-addo
 }
 .navbar-nav .open .dropdown-menu>li>a:hover, .navbar-nav .open .dropdown-menu>li>a:focus {
 	background-color: #FFFFFF;
-	color: #8b1e1a;
+	color: #ba0c2f;
 }
 }
 @media (min-width:1207px) {
@@ -3623,7 +3623,7 @@ textarea.input-group-sm>.form-control, textarea.input-group-sm>.input-group-addo
 	border-color: #e7e7e7
 }
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
-	color: #8b1e1a;
+	color: #ba0c2f;
 	/*background-color: #e7e7e7*/
 }
 @media (max-width:1206px) {
