@@ -454,7 +454,7 @@ a {
 }
 a:hover, a:focus, a:active, a.active {
 	/*color: #8b1e1a;*/
-	color: #630502;
+	color: #000;
 }
 h1, h2, h3, h4, h6 {
 	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
