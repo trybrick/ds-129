@@ -1517,11 +1517,11 @@ img.storedirector {
 	border-color: #ececec;
 }
 .storeservice_modulTitle {
-	background-color: #ececec;
+	background-color: #ba0c2f;
 	padding: 8px;
 	margin-top: -5px;
 	text-transform: capitalize;
-	color: #000000;
+	color: #fff;
 }
 .storeservices_modul p {
 	margin-left: 10px;
