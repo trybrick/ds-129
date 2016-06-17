@@ -1494,18 +1494,21 @@ h4.about-heading_small {
 	font-style: italic;
 }
 h4.about-heading_small-error {
-position:relative;
-top: 80px;
-font-family: "Open Sans", Helvetica, Arial, sans-serif;
-font-style: italic;
-font-size: medium;
-color: #ba0c2f;
+	position: relative;
+	top: 80px;
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-style: italic;
+	font-size: medium;
+	color: #ba0c2f;
 }
-
 p.errorpagePrompt {
-	margin-top: 130px; margin-top: 100px; color: #ba0c2f; letter-spacing: 0.125em; line-height: 1.25em; font-size: large; font-weight: bold;
+	margin-top: 130px;
+	color: #ba0c2f;
+	letter-spacing: 0.125em;
+	line-height: 1.25em;
+	font-size: large;
+	font-weight: bold;
 }
-
 .DesktopDownArrow {
 	display: inline;
 	font-size: 30px;
