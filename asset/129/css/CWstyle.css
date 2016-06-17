@@ -1495,10 +1495,11 @@ h4.about-heading_small {
 }
 h4.about-heading_small-error {
 position:relative;
-top: 70px;
+top: 80px;
 font-family: "Open Sans", Helvetica, Arial, sans-serif;
 font-style: italic;
 font-size: medium;
+color: #ba0c2f;
 }
 
 .DesktopDownArrow {
