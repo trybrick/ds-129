@@ -1502,6 +1502,10 @@ font-size: medium;
 color: #ba0c2f;
 }
 
+p.errorpagePrompt {
+	margin-top: 130px; margin-top: 100px; color: #ba0c2f; letter-spacing: 0.125em; line-height: 1.25em; font-size: large; font-weight: bold;
+}
+
 .DesktopDownArrow {
 	display: inline;
 	font-size: 30px;
