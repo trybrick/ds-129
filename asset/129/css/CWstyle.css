@@ -151,14 +151,14 @@ body {
 	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	padding-right: 0 !important;
 	margin-right: 0 !important;
-	background: rgba(255,242,0,1);
+	/*background: rgba(255,242,0,1);
 	background: -moz-linear-gradient(top, rgba(255,242,0,1) 0%, rgba(255,242,0,1) 40%, rgba(255,255,255,1) 90%, rgba(255,255,255,1) 100%);
 	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,242,0,1)), color-stop(40%, rgba(255,242,0,1)), color-stop(90%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,1)));
 	background: -webkit-linear-gradient(top, rgba(255,242,0,1) 0%, rgba(255,242,0,1) 40%, rgba(255,255,255,1) 90%, rgba(255,255,255,1) 100%);
 	background: -o-linear-gradient(top, rgba(255,242,0,1) 0%, rgba(255,242,0,1) 40%, rgba(255,255,255,1) 90%, rgba(255,255,255,1) 100%);
 	background: -ms-linear-gradient(top, rgba(255,242,0,1) 0%, rgba(255,242,0,1) 40%, rgba(255,255,255,1) 90%, rgba(255,255,255,1) 100%);
 	background: linear-gradient(to bottom, rgba(255,242,0,1) 0%, rgba(255,242,0,1) 40%, rgba(255,255,255,1) 90%, rgba(255,255,255,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff200', endColorstr='#ffffff', GradientType=0 );
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff200', endColorstr='#ffffff', GradientType=0 );*/
 }
 body.modal-open {
 	overflow: auto;
