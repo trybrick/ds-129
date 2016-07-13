@@ -57,6 +57,9 @@ header.ng-scope:before {
 /*  Let's go ahead and fix some mobile silly business  */
 
 @media only screen and (max-width: 438px) {
+body {
+	background: #FFF !important;
+}
 header .intro-text {
 	position: relative;
 	top: -30px;
@@ -90,11 +93,10 @@ li.PageNumbers {
 	padding: 0px 0px 0px 10px !important;
 	margin-top: 0 !important;
 	background: #000 !important;
-    color: #FFF;
+	color: #FFF;
 }
-
 #socialBar a {
-    color: #FFF !important;
+	color: #FFF !important;
 }
 #socialicons {
 	float: left !important;
