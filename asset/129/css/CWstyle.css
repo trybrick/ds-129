@@ -94,7 +94,7 @@ li.PageNumbers {
 }
 
 #socialBar a {
-    color: #FFF;
+    color: #FFF !important;
 }
 #socialicons {
 	float: left !important;
