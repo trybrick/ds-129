@@ -89,6 +89,12 @@ li.PageNumbers {
 #socialBar {
 	padding: 0px 0px 0px 10px !important;
 	margin-top: 0 !important;
+	background: #000 !important;
+    color: #FFF;
+}
+
+#socialBar a {
+    color: #FFF;
 }
 #socialicons {
 	float: left !important;
