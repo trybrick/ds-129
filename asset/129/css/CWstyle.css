@@ -718,9 +718,11 @@ header .intro-text .intro-heading {
 	margin-bottom: 50px;
 	text-transform: none;
 	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 90px;
+	/*font-size: 90px;*/
+	font-size: 75px;
 	font-weight: 700;
-	line-height: 75px;
+	/*line-height: 75px;*/
+	line-height: 90px;
 	text-shadow: -2px 2px 4px #000000;
 	color: rgba(255,255,255,.8);
 	text-transform: uppercase;
