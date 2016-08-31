@@ -132,6 +132,10 @@ section {
 #socialicons div {
 	margin: -5px;
 }
+.Promocontainer {
+	padding-top:0px !important;
+}
+
 }
  @media (min-width: 439px) and (max-width: 767px) {
 #portfolio .portfolio-item {
