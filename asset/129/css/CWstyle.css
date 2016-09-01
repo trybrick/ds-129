@@ -1653,9 +1653,9 @@ a.noFocus:focus {
 }
 /* PayPal Button */
 .PayPalbtn-info {
-	color: #000;
-	background-color: #c2b69c;
-	border-color: #b1a68e;
+	color: #FFF;
+	background-color: #000;
+	border-color: #000;
 	font-weight: bold;
 }
 .PayPalbtn-info:hover, .PayPalbtn-info:focus, .PayPalbtn-info.focus, .PayPalbtn-info:active, .PayPalbtn-info.active, .open>.dropdown-toggle.btn-info {
