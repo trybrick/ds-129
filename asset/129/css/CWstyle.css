@@ -1791,8 +1791,9 @@ a.buttonmore:hover {
 }
 /* Labels for Learning table */
 tr.lfl_areatitle {
-	background-color: #c2b69c !important;
+	background-color: #000 !important;
 	font-weight: bolder;
+	color: #FFF !important;
 }
 th.lfl_State {
 	color: #ececec !important;
