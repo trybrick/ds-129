@@ -1891,3 +1891,13 @@ img.SidefeaturedProfile {
 .featuredBlog_bg {
 /*background-color: #ececec;*/
 }
+
+/* Misc conversion to CW styling */
+.darkbglink {
+    color: #FFF !important;
+	text-decoration:none;
+}
+
+.darkbglink:hover {
+    color: #BA0C2F !important;
+}
