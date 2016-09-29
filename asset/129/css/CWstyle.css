@@ -1902,3 +1902,7 @@ img.SidefeaturedProfile {
 .darkbglink:hover {
     color: #BA0C2F !important;
 }
+
+.panel-title a:hover {
+    color: #BA0C2F;
+}
