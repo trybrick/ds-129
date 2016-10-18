@@ -43,8 +43,9 @@
     </div>
     <div data-ng-repeat-end=""></div>
     <div class="row" data-infinite-scroll="loadMore()">
+	<hr style="clear: both" data-ng-show="coupons.store.items.length > 0"/>
+	<h4 data-ng-show="selectedCoupons.items.length > 0">Manufacturer Coupons</h4>
       <div data-ng-repeat-start="item in selectedCoupons.items" data-ng-class="{'row': $index % 3 === 0 }"></div>
-      <h4 data-ng-show="selectedCoupons.items.length > 0">Manufacturer Coupons</h4>
 	  <div class="col-md-4 col-sm-6 coupons"
         data-ng-include="getThemeUrl('/views/engine/coupons-item.html')">
       </div>
