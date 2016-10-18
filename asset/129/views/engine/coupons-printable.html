@@ -1,6 +1,6 @@
 <div class="hidden-meta" data-gsn-title="{{ChainName}} | coupons"></div>
 <div style="padding:15px !important;" data-ctrl-coupon-classic="" class="col-md-12" data-ng-init="sortByName = 'About to Expire';">
-  <div data-ng-include="getThemeUrl('/views/engine//coupons-tabs.html')"></div>
+  <div data-ng-include="getThemeUrl('/views/engine/coupons-tabs.html')"></div>
   
   <div class="row">
     <div class="col-md-8 col-xs-12">
@@ -35,7 +35,7 @@
   </div>
   <div class="row col-md-12">
     <br style="clear: both;"/><br />
-
+		<h4 data-ng-show="coupons.store.items.length > 0">Store Coupons</h4>
       <div data-ng-repeat-start="item in coupons.store.items" data-ng-class="{'row': $index % 3 === 0 }"></div>
     <div class="col-md-4 col-sm-6 coupons" data-body=""
         data-ng-include="getThemeUrl('/views/engine/coupons-item-store.html')">
@@ -43,8 +43,10 @@
     </div>
     <div data-ng-repeat-end=""></div>
     <div class="row" data-infinite-scroll="loadMore()">
+	<hr style="clear: both" data-ng-show="coupons.store.items.length > 0"/>
+	<h4 data-ng-show="selectedCoupons.items.length > 0">Manufacturer Coupons</h4>
       <div data-ng-repeat-start="item in selectedCoupons.items" data-ng-class="{'row': $index % 3 === 0 }"></div>
-      <div class="col-md-4 col-sm-6 coupons"
+	  <div class="col-md-4 col-sm-6 coupons"
         data-ng-include="getThemeUrl('/views/engine/coupons-item.html')">
       </div>
       <div data-ng-repeat-end=""></div>
