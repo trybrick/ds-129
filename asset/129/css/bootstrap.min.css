@@ -2630,7 +2630,7 @@ textarea.input-lg, textarea.form-group-lg .form-control, select[multiple].input-
 	line-height: 1.5;
 	border-radius: 3px;
 	color:#fff;
-	background-color: #8b1e1a;
+	background-color: #ba0c2f;
 	transition: all .5s ease;
 }
 
@@ -2759,7 +2759,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6bbaca9', e
 	white-space: nowrap
 }
 .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
-	color: #8b1e1a;
+	color: #ba0c2f;
 	text-decoration: none;
 	background-color: #ffffff;
 }
@@ -3445,7 +3445,7 @@ textarea.input-group-sm>.form-control, textarea.input-group-sm>.input-group-addo
 }
 .navbar-nav .open .dropdown-menu>li>a:hover, .navbar-nav .open .dropdown-menu>li>a:focus {
 	background-color: #FFFFFF;
-	color: #8b1e1a;
+	color: #ba0c2f;
 }
 }
 @media (min-width:1207px) {
@@ -3623,7 +3623,7 @@ textarea.input-group-sm>.form-control, textarea.input-group-sm>.input-group-addo
 	border-color: #e7e7e7
 }
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
-	color: #8b1e1a;
+	color: #ba0c2f;
 	/*background-color: #e7e7e7*/
 }
 @media (max-width:1206px) {
@@ -4367,7 +4367,7 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
 	padding: 15px
 }
 .panel-heading {
-	padding: 10px 15px;
+	padding: 8px 15px;
 	border-bottom: 1px solid transparent;
 	/* border-top-left-radius: 3px; */
 	/* border-top-right-radius: 3px */
@@ -4500,24 +4500,18 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
 	/* border-color: #ddd */
 }
 .panel-default .panel-heading {
-	color: #333;
-	background-color: #f5f5f5;
-	/* border-color: #ddd; */
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ece6da+0,cfc2ab+50,c2b496+100 */
-
-background: rgb(236,230,218); /* Old browsers */
-
-/* IE9 SVG, needs conditional override of 'filter' to 'none' */
-
-background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VjZTZkYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2NmYzJhYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNjMmI0OTYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-
-background: -moz-linear-gradient(top,  rgba(236,230,218,1) 0%, rgba(207,194,171,1) 50%, rgba(194,180,150,1) 100%); /* FF3.6-15 */
-
-background: -webkit-linear-gradient(top,  rgba(236,230,218,1) 0%,rgba(207,194,171,1) 50%,rgba(194,180,150,1) 100%); /* Chrome10-25,Safari5.1-6 */
-
-background: linear-gradient(to bottom,  rgba(236,230,218,1) 0%,rgba(207,194,171,1) 50%,rgba(194,180,150,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ece6da', endColorstr='#c2b496',GradientType=0 ); /* IE6-8 */
+	width: 100%;
+height: 35px;
+background-image: url(http://upload.gsngrocers.com/chainfiles/129/creative/201606/636015826956641686-cwsquares2.png);
+background-size: 40px 40px;
+background-repeat: no-repeat;
+background-position: right top -10px;
+position: relative;
+float: right;
+background-color: #000;
+color: #FFF;
+margin-bottom: 15px;
+margin-top: 15px;
 }
 .panel-default>.panel-heading+.panel-collapse>.panel-body {
 	border-top-color: #ddd

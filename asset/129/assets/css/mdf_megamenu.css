@@ -30,7 +30,7 @@ a:hover{
 	margin-left: 3px;
 }
 .has-drop:after{
-	content:"\e258";
+	/*content:"\e258";*/
 	position: absolute;
 	font-size: 0.7em;
 	font-family: "Glyphicons Halflings";
@@ -74,7 +74,7 @@ a.navbar-brand img{
 	padding: 0;
 }
 #mdf_menu .menu-el > a{
-	color: #333333;
+	color: #FFFFFF;
 	transition: all 0.32s;
 	-webkit-transition: background 0.35s, color 0.4s;
 	-moz-transition: background 0.35s, color 0.4s;
@@ -152,8 +152,8 @@ a.navbar-brand img{
 }
 #mdf_menu div.mdf_sub_wrap a:hover,
 #mdf_menu ul.mdf_child_menu a:hover{
-	color: #C2B69C;
-	background: #8b1e1a;
+	color: #FFF;
+	background: #BA0C2F;
 }
 .mdf_flip{
 	height: auto;
@@ -347,7 +347,7 @@ a.navbar-brand img{
 	margin: 7px 0;
 	padding-left: 15px;
 	padding-right: 15px;
-	background: #ebebeb
+	background: #BA0C2F;
 }
 .cl-title.text-left{
 	text-align: left;
@@ -452,9 +452,18 @@ input{
 		
 		a.navbar-brand img {
 		height: 36px !important;
-		width: 200px !important;
+		/*width: 200px !important;*/
+		height: 100% !important;
 		margin-top: 9px !important;
 	}
+	}
+	@media only screen and (max-width: 767px){
+		a.navbar-brand img {
+		height: 100px !important;
+		/*width: 200px !important;*/
+		/*height: 100% !important;*/
+		margin-top: 9px !important;
+	}	
 	}
 @media only screen and (max-width: 1206px){
 	#mdf_menu ul {
@@ -521,7 +530,7 @@ input{
 		display: none;
 	}
 	.has-drop:after{
-		content:"\e252";
+		/*content:"\e252";*/
 		font-size: 16px;
 		padding: 5px;
 		top: -5px;

@@ -1,5 +1,5 @@
 {
-	"name": "Coborns.com",
+	"name": "Cashwise.com",
 	"icons": [
 		{
 			"src": "\/android-chrome-36x36.png",
@@ -38,6 +38,6 @@
 			"density": 4
 		}
 	],
-	"start_url": "http:\/\/www.coborns.com",
+	"start_url": "http:\/\/www.cashwise.com",
 	"display": "standalone"
 }
