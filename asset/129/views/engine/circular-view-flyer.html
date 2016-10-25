@@ -99,7 +99,7 @@
         <ul class="pagination" data-ng-include="getThemeUrl('/views/engine/circular-view-flyer-pager.html')"></ul></div>
       </div>
       <div class="myFakeFlyer" data-sync-height="#myFlyer"
-        data-gsn-svg-image=".circImage" data-src="{{vm.page.ImageUrl}}" data-watch="vm.page"></div>
+        data-gsn-svg-image=".circImage" data-src="{{vm.page.ImageUrl.replace('upload.gsngrocers.com/', 'cdn2.gsngrocers.com/rs/2000x,q50/up/')}}" data-watch="vm.page"></div>
     </div>
   </div>
   <div class="row" data-gsn-digital-circ="vm.digitalCirc" data-ng-if="win.html5">
