@@ -1324,6 +1324,11 @@ a.button:hover {
 	-o-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 	-ms-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
+
+a.button:visited, a.button:active {
+	color:#fff;
+}
+
 li .btn-default {
 	font-weight: normal;
 }
@@ -1673,7 +1678,7 @@ p#start {
 	border-style: solid;
 	border-width: thin;
 	padding: 10px;
-	border-color: #c2b69c;
+	border-color: #999;
 }
 /* Video Page */
 
@@ -1841,6 +1846,7 @@ img.DDS {
 
 .blogfeedbg {
 	background-color: #ececec;
+	margin-top: 15px !important;
 }
 .getSocialfeed {
 	margin-top: 10px;
@@ -1900,4 +1906,9 @@ img.SidefeaturedProfile {
 
 .darkbglink:hover {
     color: #BA0C2F !important;
+}
+
+.panel-title a:hover, a:focus {
+    color: #BA0C2F;
+	text-decoration:none;
 }
