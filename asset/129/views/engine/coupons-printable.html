@@ -19,7 +19,7 @@
       </div>
     </div>
   </div>
-  <div class="row">
+  <div class="row" data-ng-show="coupons.store.items.length > 1">
     <form name="printableCouponSearch" class="input-group pull-right" style="width: 300px; padding-top: 5px; padding-right: 5px;">
       <input style="margin-top:15px; height:32px;" type="text" class="form-control" placeholder="Search for..." name="q" data-ng-model="vm.filterBy">
       <div class="input-group-btn">
