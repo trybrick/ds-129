@@ -1272,7 +1272,7 @@ pre code {
 .row {
 	margin-right: -15px;
 	margin-left: -15px
-	
+
 */
 
 }
@@ -2733,8 +2733,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6bbaca9', e
 	border-radius: 4px;
 	-webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
 	box-shadow: 0 6px 12px rgba(0,0,0,.175);
-	
-	
+
+
 }
 
 
@@ -2831,7 +2831,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(enabled=false)
 .navbar-right .dropdown-menu {
 	right: 0;
 	left: auto;
-	
+
 }
 .navbar-right .dropdown-menu-left {
 	right: auto;
@@ -4502,7 +4502,7 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
 .panel-default .panel-heading {
 	width: 100%;
 height: 35px;
-background-image: url(http://upload.gsngrocers.com/chainfiles/129/creative/201606/636015826956641686-cwsquares2.png);
+background-image: url(https://upload.gsngrocers.com/chainfiles/129/creative/201606/636015826956641686-cwsquares2.png);
 background-size: 40px 40px;
 background-repeat: no-repeat;
 background-position: right top -10px;
