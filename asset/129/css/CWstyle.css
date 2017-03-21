@@ -596,9 +596,14 @@ h5 {
 .navbar-default .navbar-collapse {
 	border-color: rgba(255,255,255,.02);
 }
-@media (min-width: 439px) and (max-width: 1207px) {
+@media (min-width: 300px) and (max-width: 767px) {
 .navbar-default .navbar-collapse {
 	margin-top: 50px;
+}
+}
+@media (min-width:768px) and (max-width: 1207px) {
+.navbar-default .navbar-collapse {
+	margin-top: 100px;
 }
 }
 .navbar-default .navbar-toggle {
