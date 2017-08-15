@@ -35,15 +35,21 @@
 <meta name="theme-color" content="#ba0c2f">
 
 <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+<script>
+window.isPrerender = /Prerender/.test( window.navigator.userAgent );
+
+if (!window.isPrerender) {
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-PD8GN6');</script>
+})(window,document,'script','dataLayer','GTM-PD8GN6');
+}</script>
 <!-- End Google Tag Manager -->
 
 <!-- Google DFP -->
 <script>
+if (!window.isPrerender) {
   var googletag = googletag || {};
   googletag.cmd = googletag.cmd || [];
    (function() {
@@ -56,8 +62,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       var node = document.getElementsByTagName("script")[0];
       node.parentNode.insertBefore(gads, node);
     })();
+}
 </script>
 <script>
+if (!window.isPrerender) {
   googletag.cmd.push(function() {
     //googletag.defineSlot('/94606675/CashWise-CircularMOBILE', [320, 50], 'div-gpt-ad-1501264488980-0').addService(googletag.pubads());
     var slot1 = googletag.defineSlot('/94606675/CashWise-CircularSidebar', [[320, 50], [300, 600], [300, 250]], 'div-gpt-ad-1501264488980-1').setTargeting('refresh').addService(googletag.pubads());
@@ -66,6 +74,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	googletag.display('div-gpt-ad-1501264488980-1');
 	setInterval(function(){googletag.pubads().refresh([slot1]);}, 30000);
   });
+}
 </script>
 <!-- End Google DFP -->
 
@@ -516,12 +525,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script src="/asset/129/assets/js/demo.js" defer></script>
 <!------------------------------------------------------------------>
 
-<!-- jQuery
-<script src="/asset/129/js/jquery.js"></script>
--->
-<!-- Bootstrap Core JavaScript -->
-<script src="/asset/129/js/bootstrap.min.js"></script>
-
 <!-- Plugin JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 <script src="/asset/129/js/classie.js"></script>
@@ -586,6 +589,7 @@ $("#appendUrl").keyup(function(event){
 
   <!--begin:analytics-->
   <script>
+if (!window.isPrerender) {
     (function (i, s, o, g, r, a, m) {
       i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
         (i[r].q = i[r].q || []).push(arguments);
@@ -593,9 +597,12 @@ $("#appendUrl").keyup(function(event){
       m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g;
       m.parentNode.insertBefore(a, m);
     })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+}
   </script>
   <div data-bs-display-mode="bsDisplayMode"></div>
-<script>var clickySiteId = ((globalConfig || {}).data || {}).ClickySiteId;
+<script>
+if (!window.isPrerender) {
+  var clickySiteId = ((globalConfig || {}).data || {}).ClickySiteId;
 var clicky_site_ids = clicky_site_ids || [];
 var clicky_custom = { pageview_disable : 1, history_disable : 1 };
 if (clickySiteId) {
@@ -608,15 +615,19 @@ if (clickySiteId) {
     ( document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0] ).appendChild( s );
   })();
 }
+}
 </script>
   <div data-bs-display-mode="bsDisplayMode"></div>
-  <script>var googleTagId = ((globalConfig || {}).data || {}).GoogleTagId;
+  <script>
+if (!window.isPrerender) {
+  var googleTagId = ((globalConfig || {}).data || {}).GoogleTagId;
 if (googleTagId) {
     (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
      '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
      })(window,document,'script','dataLayer',googleTagId);
+}
 }
 </script>
 
