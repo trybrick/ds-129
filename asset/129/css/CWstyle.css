@@ -1918,3 +1918,10 @@ img.SidefeaturedProfile {
     color: #BA0C2F;
     text-decoration:none;
 }
+.clbrtMORE-article {
+	border-bottom-color:#eee; 
+	border-bottom-style:solid; 
+	border-bottom-width:thin; 
+	margin-bottom:5px; 
+	text-align:center;
+}
