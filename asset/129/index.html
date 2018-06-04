@@ -34,19 +34,18 @@
 <meta name="msapplication-TileImage" content="/asset/129/favicon/mstile-144x144.png">
 <meta name="theme-color" content="#ba0c2f">
 
-<!-- Google Tag Manager -->
 <script>
 window.isPrerender = /Prerender/.test( window.navigator.userAgent );
 
 if (!window.isPrerender) {
-  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-PD8GN6');
-}</script>
-<!-- End Google Tag Manager -->
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
 
+  var script = document.createElement('script');
+  script.src = 'https://www.googletagmanager.com/gtm.js?id=GTM-PD8GN6';
+  document.getElementsByTagName('head')[0].appendChild(script);
+}
+</script>
 <!-- Google DFP -->
 <script>
 if (!window.isPrerender) {
@@ -183,7 +182,7 @@ if (!window.isPrerender) {
  Delivery <i class="fa fa-caret-right" aria-hidden="true"></i>
 </a>
  <ul class="mdf_child_menu sub-0" style="left: 200px; top: 0px; display: block;">
-<li class="submenuR"><a href="https://www.cashwisedelivers.com/loginMessage?facilityId=503" target="_blank">Bismarck, ND</a></li> 
+<li class="submenuR"><a href="https://www.cashwisedelivers.com/loginMessage?facilityId=503" target="_blank">Bismarck, ND</a></li>
  <li class="submenuR"><a href="https://www.cashwisedelivers.com/loginMessage?facilityId=501" target="_blank">Fargo Metro</a></li>
  <li class="submenuR"><a href="https://www.cashwisedelivers.com/loginMessage?facilityId=502" target="_blank">Owatonna, MN</a></li>
   <!-- <li class="submenuR"><a href="http://www.shopouraisles.com/bismarck.asp" target="_blank">Bismarck, ND</a></li> -->
@@ -247,7 +246,7 @@ if (!window.isPrerender) {
                 <li><a href="/floral"><i class="icon ion-ios-flower"></i> floral</a></li>
                 <li><a href="/frozen"><i class="icon ion-icecream"></i> frozen</a></li>
                 <li><a href="/general-merchandise"><i class="fa fa-lightbulb-o"></i> general merchandise</a></li>
-                
+
                 </ul>
             </div>
             <div class="col-sm-3 col-xs-6">
@@ -268,7 +267,7 @@ if (!window.isPrerender) {
                 <span style="height:1px;">&nbsp;</span>
               </div>
               <ul class="mdf_child_menu">
-              
+
                <li><a href="/pets"><i class="fa fa-paw"></i> pets</a></li>
                 <li><a href="/pharmacy"><i class="fa fa-medkit"></i> pharmacy</a></li>
                 <!-- <li><a href="/photo"><i class="fa fa-camera"></i> photo</a></li> -->
@@ -313,7 +312,7 @@ if (!window.isPrerender) {
                          <li><a href="/food-safety"><i class="icon ion-thermometer" style="margin-right:12pt;"></i> food safety</a></li>
                          <li><a href="/gluten-free"><i class="icon ion-asterisk"></i> gluten free</a></li>
                          <li><a href="/nutrition-facts"><i class="fa fa-list-alt"></i> nutrition facts</a></li>
-                         
+
                          <li><a href="/pharmacy"><i class="fa fa-medkit"></i> pharmacy</a></li>
 
              </ul>
@@ -594,52 +593,15 @@ $("#appendUrl").keyup(function(event){
 </script>
 
 <!-- End Google Search -->
+
   <!--begin:analytics-->
-  <script>
-if (!window.isPrerender) {
-    (function (i, s, o, g, r, a, m) {
-      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-        (i[r].q = i[r].q || []).push(arguments);
-      }, i[r].l = 1 * new Date(); a = s.createElement(o),
-      m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g;
-      m.parentNode.insertBefore(a, m);
-    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-}
-  </script>
   <div data-bs-display-mode="bsDisplayMode"></div>
+<!-- since gtag is being loaded above and handled by core, simply log the start date here -->
 <script>
 if (!window.isPrerender) {
-  var clickySiteId = ((globalConfig || {}).data || {}).ClickySiteId;
-var clicky_site_ids = clicky_site_ids || [];
-var clicky_custom = { pageview_disable : 1, history_disable : 1 };
-if (clickySiteId) {
-  clicky_site_ids.push(clickySiteId);
-  (function() {
-    var s = document.createElement('script');
-    s.type = 'text/javascript';
-    s.async = true;
-    s.src = '//static.getclicky.com/js';
-    ( document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0] ).appendChild( s );
-  })();
-}
+  gtag('js', new Date());
 }
 </script>
-  <div data-bs-display-mode="bsDisplayMode"></div>
-  <script>
-if (!window.isPrerender) {
-  var googleTagId = ((globalConfig || {}).data || {}).GoogleTagId;
-if (googleTagId) {
-    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-     '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-     })(window,document,'script','dataLayer',googleTagId);
-}
-}
-</script>
-
-
-
   <!--end:analytics-->
 
   <!-- Site Search Analytics For AdSense -->
