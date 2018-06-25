@@ -34,6 +34,7 @@
 <meta name="msapplication-TileImage" content="/asset/129/favicon/mstile-144x144.png">
 <meta name="theme-color" content="#ba0c2f">
 
+<!-- do not delete these include statements -->
 <!--include:head-content-->
 <!--include:head-content2-->
 <script>
@@ -552,7 +553,8 @@ if (!window.isPrerender) {
  <!-- bricks scripts -->
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.29/angular.min.js?nocache=1"></script>
   <script src="https://clientapi-stg.brickinc.net/api/v1/store/sitecontentscript/[chainid]?nocache=1"></script>
-  <script data-brickid="[chainid]" src="https://cdn-stg.brickinc.net/script/bricktag/bricktag.min.js?nocache=1"></script>
+  <script src="https://cdn-stg.brickinc.net/script/gmodal/lib/gmodal.min.js?nocache=1"></script>
+  <script src="https://cdn-stg.brickinc.net/script/wu/lib/wu.min.js?nocache=1"></script>
   <script src="https://cdn-stg.brickinc.net/script/gsncore/latest/gsncore.min.js?nocache=1"></script>
   <script src="https://clientapi-stg.brickinc.net/api/v1/content/storeapp/[chainid]/?cdnUrl=/asset/129/storeApp.js?nocache=1"></script>
 
@@ -596,8 +598,10 @@ $("#appendUrl").keyup(function(event){
 
 <!-- End Google Search -->
 
+<!-- do not delete these include statements -->
 <!--include:style-->
 <!--include:script-->
+<a id="storeSelectModal" data-gsn-modal="getThemeUrl('/views/engine/modal-select-store.html')" data-show-if="gvm.showStoreSelectModal" style="display:none" data-hide-on="none" data-ng-init="useBrowserGeo = true"></a>
   <!--begin:analytics-->
   <div data-bs-display-mode="bsDisplayMode"></div>
 <!-- since gtag is being loaded above and handled by core, simply log the start date here -->
